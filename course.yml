@@ -1,7 +1,7 @@
 title: How to deploy Static website to AWS
 description: Getting started on Static website deployment on AWS
 locale: en-US
-author:
+author-ids:
   - akwjdkawd
 tags: "aws"
 difficulty: Intermediate
