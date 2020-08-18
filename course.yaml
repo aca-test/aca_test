@@ -2,8 +2,8 @@ title: How to deploy Static website to AWS
 description: Getting started on Static website deployment on AWS
 locale: en-US
 author:
-  - ritwick
-tags: "aws, learning-labs, course, content, static, website"
+  - akwjdkawd
+tags: "aws"
 difficulty: Intermediate
 badge-color: orange
 badge-icon: cloud
@@ -18,23 +18,8 @@ labs:
     id: fa038b2846904aa6ae4ae09207cc60ab
     relative-path: 01-onboarding
     length-in-minutes: 10
-  - title: "Application Specification Repository"
+  - title: "Application"
     description: How to create Application Specification Repository for Continunous Deployment and request SSL Certificate
     id: f879f55b66774bd9a38570adecc984a0
     relative-path: 02-app-spec-repo
     length-in-minutes: 10
-  - title: "Configuring Jenkins Deployment Jobs"
-    description: How to configure Deployment, Release and Teardown Appr jobs on Jenkins
-    id: e3f0b741bf934b31a039d57d0dfe0dc8
-    relative-path: 03-jenkins-jobs
-    length-in-minutes: 10
-  - title: "Setting up DNS and Akamai"
-    description: How to set up DNS and Akamai for website
-    id: 5ac9ee592968493db129cead51949d6c
-    relative-path: 04-dns-akamai
-    length-in-minutes: 10
-  - title: "Branching and AWS Resource Lifecycle"
-    description: Understanding Branching strategy and AWS resource lifecycle for Static Website consumable
-    id: 5611011c02654e49b170f39d80608364
-    relative-path: 05-branching
-    length-in-minutes: 5
