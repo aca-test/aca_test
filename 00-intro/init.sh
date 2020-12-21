@@ -47,7 +47,7 @@ post_data=$(
   cat <<EOF
 {
   "cluster": {
-    "name": "$2",
+    "name": "$1",
     "network": "projects/apitest-298120/global/networks/default",
     "subnetwork": "projects/apitest-298120/regions/us-central1/subnetworks/default",
     "nodePools": [
