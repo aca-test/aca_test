@@ -2,9 +2,16 @@
 
 set -e
 
+echo $1
+echo $2
+echo $3
+
 # base64 miscellaneous methods
 base64variable() {
   printf "$1" | base64stream
+  echo $1
+  echo $2
+  echo $3
 }
 
 base64stream() {
@@ -37,8 +44,6 @@ token=$(curl -s -X POST https://www.googleapis.com/oauth2/v4/token \
   --data-urlencode 'grant_type=urn:ietf:params:oauth:grant-type:jwt-bearer' \
   --data-urlencode "assertion=$request_body.$signature" |
   jq -r .access_token)
-
-echo $2
 
 # call GCP to create cluster
 post_data=$(
