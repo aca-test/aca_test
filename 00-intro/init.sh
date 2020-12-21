@@ -38,6 +38,8 @@ token=$(curl -s -X POST https://www.googleapis.com/oauth2/v4/token \
   --data-urlencode "assertion=$request_body.$signature" |
   jq -r .access_token)
 
+echo $2
+
 # call GCP to create cluster
 post_data=$(
   cat <<EOF
