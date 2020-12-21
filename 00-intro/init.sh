@@ -2,10 +2,6 @@
 
 set -e
 
-echo $1
-echo $2
-echo $3
-
 # base64 miscellaneous methods
 base64variable() {
   printf "$1" | base64stream
